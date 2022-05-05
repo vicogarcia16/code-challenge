@@ -6,14 +6,14 @@ describe("Unit test for Explorer Service class", () => {
         expect(StudentService.filterStudentsAll(students).length).toBeGreaterThanOrEqual(0);
 
     });
-    test('2) getStudentsByEmail function', () => {
+    test("2) getStudentsByEmail function", () => {
         expect(StudentService.getStudentsByEmail(students)[0].length).toEqual(29);
 
-    })
+    });
 
-    test('3) getStudentsByCredits function', () => {
+    test("3) getStudentsByCredits function", () => {
         expect(StudentService.getStudentsByCredits(students)[0].length).toEqual(27);
 
-    })
+    });
    
 });
