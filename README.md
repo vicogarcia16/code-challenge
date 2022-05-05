@@ -13,6 +13,7 @@
 * Eslint: Realizar un acomodo y revisión del código.
 
 # Estructura de archivos
+```bash
 
 ├── .eslintrc.js
 ├── .gitignore
@@ -31,6 +32,8 @@
 └── test
   ├── StudentsController.test.js
   └── StudentService.test.js
+
+```
 
 # Ejecución de la API
 
