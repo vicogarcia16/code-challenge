@@ -12,7 +12,25 @@
 * Jest: Para la realización de pruebas de funcionalidades.
 * Eslint: Realizar un acomodo y revisión del código.
 
-# Diseño de componentes
+# Estructura de archivos
+
+├── .eslintrc.js
+├── .gitignore
+├── app
+│  └── students.json
+├── lib
+│  ├── controllers
+│  │  └── StudentsController.js
+│  ├── server.js
+│  ├── services
+│  │  └── StudentService.js
+│  └── utils
+│    └── Reader.js
+├── package-lock.json
+├── package.json
+└── test
+  ├── StudentsController.test.js
+  └── StudentService.test.js
 
 # Ejecución de la API
 
